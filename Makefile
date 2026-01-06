@@ -1,0 +1,1 @@
+obj-$(CONFIG_TINYDRM_NT7534) += nt7534.o

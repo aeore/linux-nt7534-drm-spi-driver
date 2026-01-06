@@ -1,0 +1,8 @@
+config TINYDRM_NT7534
+	tristate "DRM support for Novatek NT7534 display panels"
+	depends on DRM && SPI
+	select DRM_MIPI_DBI
+	select BACKLIGHT_CLASS_DEVICE
+	select BACKLIGHT_GPIO
+	help
+	  Enable support for the Novatek NT7534 monochrome LCD display.
